@@ -1,4 +1,3 @@
-import React from 'react'
 import { BriefcaseIcon, SearchIcon } from 'lucide-react'
 import JobList from './components/JobList'
 import ResumeUpload from './components/ResumeUpload'
@@ -10,7 +9,7 @@ function App() {
         <div className="container mx-auto px-4 py-6 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <BriefcaseIcon className="w-8 h-8 text-indigo-600" />
-            <h1 className="text-2xl font-bold text-gray-800">JobConnect</h1>
+            <h1 className="text-2xl font-bold text-gray-800">DonvitoCodes Jobs</h1>
           </div>
           <nav>
             <ul className="flex space-x-6">
